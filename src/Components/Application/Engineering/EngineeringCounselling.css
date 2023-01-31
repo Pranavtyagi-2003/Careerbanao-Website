@@ -1,0 +1,60 @@
+/* .exam-section{
+     height: 20rem;
+} */
+ 
+.exam-section{
+    position: relative;
+    top: 5rem;
+    width: 100%;
+}
+.filter-collegeExam{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #edede9;
+   
+}
+.fil{
+    width: 30%;
+    margin-right: 1rem;
+    box-sizing: border-box !important;
+}
+ 
+.multiple{
+    width: 100%;
+    overflow-y: scroll;
+    height: 600px;
+    margin-right: 2rem;
+}
+/* .multiple::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+.multiple::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+            left bottom,
+            left top,
+            color-stop(0.44, rgb(122, 153, 217)),
+            color-stop(0.72, rgb(73, 125, 189)),
+            color-stop(0.86, rgb(28, 58, 148)));
+} */
+
+.data-not-found{
+    margin-top: 2rem;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+@media (max-width:768px){
+    .filter-collegeExam{
+        flex-direction: column;
+    }
+    .fil{
+       width: 100%;
+       box-sizing: border-box;
+       padding-right: 0;
+       margin: 0;
+    }
+}

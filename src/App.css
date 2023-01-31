@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-nav{
+  /* background: rgb(255,255,255); 
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,224,113,1) 100%);  */
+   /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, #ffefb2 100%); */
+}
+/* 
+320px
+480px
+600px
+768px
+900px
+1024px
+1200px */

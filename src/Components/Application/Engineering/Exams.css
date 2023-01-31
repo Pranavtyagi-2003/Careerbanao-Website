@@ -1,0 +1,24 @@
+.exam-link-component{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.exams{
+    background-color: white;
+    margin: 1rem;
+    padding: 0.87rem;
+    display: flex;
+}
+ @media (max-width:768px) {
+    .exams{
+        flex-direction: column;
+    }
+    
+    .college-img>img,.college-img{
+        width: 100% !important;
+    }
+    .college-img>img{
+        height: 15rem !important;
+    }
+ }
